@@ -34,6 +34,11 @@ body {
     padding: 35px;
 }
 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav {
     height: 160px;
     width: 100%;
     display: flex;
@@ -45,6 +50,7 @@ body {
     background: url('img/net-vremeni-dlya-sozhaleniya.png') 50% 50% no-repeat;
     background-size: cover;
     height: 620px;
+    padding: 50px 100px;
 }
 .header__item {
     font-size: 22px;
@@ -58,13 +64,6 @@ body {
 }
 .header__item.active {
     font-weight: 700;
-}
-.logo__wrapper {
-    margin-top: 80px;
-    padding: 0 120px;
-}
-.logo__wrapper img {
-    margin-left: 3px;
 }
 .title {
     font-size: 48px;
@@ -231,12 +230,6 @@ body {
     .header__item {
         font-size: 16px;
     }
-    .logo__wrapper {
-        padding: 0 20px;
-    }
-    .logo__wrapper img {
-        height: 100px;
-    }
     .title {
         font-size: 30px;
     }
@@ -301,5 +294,5 @@ h2 {
 }
 
 .logo__wrapper img {
-    width: 300px;
+    width: 240px;
 }
